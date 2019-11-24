@@ -3,8 +3,9 @@
     top: 0;
     left: 0;
     width: 1px;
-    min-width: 100%;
-    *width: 100%;
+    min-width: 100vw;
+    *width: 100vw;
+    max-width: 100% !important;
     margin-top: -50px; 
     height: calc(100% + 50px);
 }
