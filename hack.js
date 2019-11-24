@@ -1,6 +1,5 @@
 setTimeout(function () {
     $('#overlay').on('load', function () {
-        $('#overlay').contents().find('#WIX_ADS').hide();
-        $('#overlay').contents().find('#SITE_HEADER').hide();
+        $('#overlay').contents().find('#WIX_ADS').remove();
     })
 }, 3000);
